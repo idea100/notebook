@@ -17,7 +17,7 @@ git作为一个分布式版本管理工具，可以很好的解决这个问题�
 
   ```
     cd vendor-web
-    git config --add svn-remote.dev.url https://develop.example.com:28443/branches/dev/vendor-web/
+    git config --add svn-remote.dev.url https://develop.example.com/branches/dev/vendor-web/
     git config --add svn-remote.dev.fetch :refs/remotes/git-svn-dev
     git svn fetch dev
     git checkout -b dev refs/remotes/git-svn-dev
